@@ -1,0 +1,32 @@
+<?php
+echo ("<div class='container'>");
+echo'<div class="row">';
+  echo("<a class='list btn btn-info' href='index?controller=pizza'>Retour à la liste</a>");
+    echo('<div class="container" style="">');
+      echo('<div class="col-md-offset-3 col-md-6"">');
+        echo('<form action="index?controller=pizza" method="post">');
+          echo('<input type="hidden" name="id" value="create">');
+          echo('<h4>Création :</h4>');
+          echo('<div class="form-group">');
+            echo('<label>Nom de la pizza :</label>');
+            echo('<input type="text" class="form-control" name ="nom" id="nom">');
+          echo('</div>');
+          echo('<div class="form-group">');
+            echo('<label>Description :</label>');
+            echo('<textarea class="form-control" name="description" id="description" rows="6"></textarea>');
+          echo('</div>');
+          echo('<div class="form-group">');
+            echo('<label>Inserer la photo :</label>');
+            echo('<input class="form-control" type="file" name="photo" id="photo">');
+          echo('</div>');
+          echo('<div class="form-group">');
+            echo('<label>Tarif (€):</label>');
+            echo('<input type="number" class="form-control" name="tarif" id="tarif" >');
+          echo('</div>');
+          echo('<button type="submit" class="btn btn-primary">Valider</button>');
+        echo('</form>');
+    echo('</div>');
+  echo('</div>');
+echo'</div>';
+echo'</div>';
+ ?>

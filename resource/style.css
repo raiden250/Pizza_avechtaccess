@@ -1,0 +1,60 @@
+      h5{
+       text-shadow: 1px 1px 2px red;}
+
+       h5 ,p{
+       font-family:  sans-serif !important;
+
+       }
+         .zoom{
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+       }
+       .zoom:hover{
+       -webkit-transform: scale(1.1);
+       transform: scale(1.1);
+       }
+       .fondIngr{
+       background-image: url("/images/ingrd.png") !important;
+       }
+       .ingr{
+       border :1px solid #94A09E;
+       width: 80%;margin-left: 10%;
+       background-color: #E6EEED;
+       border-radius: 3px;
+       }
+       .ingr:hover{
+       background-color: #B0B1B1;
+       color: #F7FAFA;
+       }
+       label{
+       	font-size: 10px !important;
+       }
+       body{
+         background-color: #3399FF;
+       }
+       .odd button{
+         background-color:#f9f9f9 !important;
+         background-color: #3399FF;
+         color:#3399FF !important;
+         border:none !important;
+       }
+       .even button{
+         background-color:#3399FF !important;
+         color:#e34724 !important;
+         border:none !important;
+       }
+       .odd button:hover{
+         background-color:#f9f9f9 !important;
+         color:red !important;
+         border:none !important;
+       }
+       .even button:hover{
+         background-color:#FF333C !important;
+         color:red !important;
+         border:none !important;
+       }
+       table.dataTable tbody > tr:not(.selected):hover{
+         background-color: none !important;
+       }
